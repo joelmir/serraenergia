@@ -1,0 +1,19 @@
+@media (max-width: 667px) and (max-height: 375px) {
+
+    .navbar-custom li {
+        padding: 14px 36px 0 0;
+    }
+
+    #solutions div p:first-child {
+        padding-top: 6%;
+    }
+
+    #benefits .col-md-3 {
+        padding-top: 39%;
+    }
+
+    #structures p.gray#title {
+        padding-top: 8.8%;
+    }
+
+}

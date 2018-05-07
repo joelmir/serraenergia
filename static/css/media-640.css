@@ -1,0 +1,146 @@
+@media (max-width: 640px) {
+
+    .navbar-custom {
+        height: 40px;
+        width: 100%;
+        margin-left: 0;
+        padding-left: 7%;
+    }
+        .navbar-custom ul {
+            padding-left: 0;
+        }
+
+        .navbar-custom li {
+            padding: 8px 18px 0 0 ;
+            margin-left: 10px;
+        }
+
+        .navbar-custom li a {
+            font-size: 10px;
+        }
+
+    #solutions .col-xs-offset-6 {
+        margin-left: 45%;
+    }
+
+    #solutions div p:first-child {
+        padding-top: 15%;
+        font-size: 26px;
+    }
+
+    #solutions div p:last-child {
+        padding-top: 15%;
+        font-size: 11px;
+    }
+
+    #services ul {
+        padding-top: 12%;
+    }
+
+    #services li.services:before {
+        width: 14px;
+        height: 14px;
+    }
+
+    #services li {
+        font-size: 12px;
+    }
+
+    #benefits .col-md-3 {
+        padding-top: 32%;
+    }
+
+    #benefits .col-benefits-1,
+    #benefits .col-benefits-2,
+    #benefits .col-benefits-3 {
+        width: 28%;
+    }
+
+    #benefits p.blue,
+    #benefits p.green,
+    #benefits p.orange {
+        font-size: 8px;
+    }
+
+    #benefits p.gray {
+        font-size: 7px;
+    }
+
+    #benefits .col-benefits-1 {
+        margin-left: 11.5%;
+    }
+
+    #benefits .col-benefits-2 {
+        padding-left: 1.5%;
+    }
+
+    #benefits .col-benefits-3 {
+        margin: 0;
+        padding-left: 0.8%;
+    }
+
+    #structures p.gray#title {
+        padding-top: 7%;
+        font-size: 26px;
+    }
+
+    #structures .col-md-3 {
+        padding-top: 14.5%;
+        padding-left: 4%;
+    }
+
+    #structures p.green {
+        font-size: 10px;
+        margin-bottom: 2px;
+    }
+
+    #structures p.gray {
+        font-size: 8px;
+        margin-bottom: 2px;
+    }
+
+
+    #footer #form {
+        height: 250px;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    #footer #form span.has-error {
+        font-size: 13px;
+    }
+
+    #footer #form p {
+        font-size: 16px;
+    }
+
+    #footer #form label {
+        font-size: 12px;
+    }
+
+    #footer #signature {
+        height: 100px;
+    }
+
+    #footer #signature img#mapa {
+        width: 60%;
+    }
+
+    #footer #signature #logo img {
+        width: 30%;
+    }
+
+    #footer #signature #social .fa-4x {
+        font-size: 2em;
+    }
+
+    #footer #signature #address,
+    #footer #signature #phone {
+        font-size: 10.5px;
+    }
+
+    #footer #signature #email {
+        font-size: 8px;
+    }
+
+}

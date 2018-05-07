@@ -1,0 +1,99 @@
+@media (max-width: 1280px) {
+
+    .navbar-custom {
+        width: 70%;
+        margin-left: 30%;
+    }
+
+    #solutions div p:first-child {
+        padding-top: 46%;
+        font-size: 40px;
+    }
+
+    #solutions div p:last-child {
+        padding-top: 15.1%;
+        font-size: 16px;
+    }
+
+    #services ul {
+        padding-top: 17%;
+    }
+
+    #services li {
+        font-size: 18px;
+    }
+
+    #services li.services:before {
+        width: 20px;
+        height: 20px;
+    }
+
+    #benefits .col-md-3 {
+        padding-top: 34.5%;
+    }
+
+    #benefits p.blue,
+    #benefits p.green,
+    #benefits p.orange {
+        font-size: 12px;
+    }
+
+    #benefits p.gray {
+        font-size: 11px;
+    }
+
+    #structures p.gray#title {
+        padding-top: 8.7%;
+    }
+
+    #structures .col-md-3 {
+        padding-top: 18%;
+    }
+
+    #structures p.green {
+        font-size: 16px
+    }
+
+    #structures p.gray {
+        font-size: 13px
+    }
+
+    #footer {
+        padding-top: 1%;
+    }
+
+    #structures p.gray#title {
+        font-size: 33px;
+    }
+
+    #footer #form {
+        height: 420px;
+        padding: 15px;
+        border-radius: 20px;
+    }
+
+    #footer #form p {
+        font-size: 20px;
+    }
+
+    #footer #form label {
+        font-size: 13px;
+    }
+
+    #footer #form textarea {
+        height: 130px;
+    }
+
+    #footer #signature {
+        height: 250px;
+    }
+
+    #footer #signature #phone,
+    #footer #signature #address {
+        font-size: 15.5px;
+    }
+
+    #signature #social {
+        padding-top: 8%;
+    }
+}

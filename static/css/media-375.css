@@ -1,0 +1,60 @@
+@media (max-width: 375px) {
+
+    .navbar-custom {
+        padding-left: 8%;
+    }
+
+    .navbar-custom li {
+        padding: 8px 6px 0 0;
+        margin-left: 0;
+    }
+
+    .navbar-custom li a {
+        font-size: 8px;
+    }
+
+    #solutions div p:first-child {
+        padding-top: 9%;
+        font-size: 18px;
+    }
+
+    #solutions div p:last-child {
+        font-size: 7px;
+    }
+
+    #services li.services:before {
+        width: 8px;
+        height: 8px;
+    }
+
+    #services li.services {
+        font-size: 8px;
+    }
+
+    #benefits p.blue, #benefits p.green, #benefits p.orange {
+        font-size: 5px;
+    }
+
+
+    #benefits p.gray {
+        font-size: 4px;
+    }
+
+    #structures p.green {
+        font-size: 7px;
+        margin-bottom: 0;
+    }
+
+    #footer #signature {
+        height: 65px;
+    }
+
+    #footer #signature #email {
+        font-size: 4px;
+    }
+
+    #footer #signature #address, #footer #signature #phone {
+        font-size: 4.5px;
+    }
+
+}

@@ -1,0 +1,67 @@
+@media (max-width: 1440px) {
+
+    #solutions div p:first-child {
+        font-size: 48px;
+    }
+
+    #solutions div p:last-child {
+        padding-top: 14%;
+    }
+
+    #services li.services:before {
+        width: 23px;
+        height: 23px;
+    }
+
+    #benefits .col-md-3 {
+        padding-top: 34%;
+    }
+
+    #benefits .col-benefits-1 {
+        margin-left: 12.5%;
+    }
+
+    #benefits .col-benefits-2 {
+        padding-left: 0.7%;
+    }
+
+    #benefits .col-benefits-3 {
+        margin-left: 0.3%
+    }
+
+    #benefits p.blue,
+    #benefits p.green,
+    #benefits p.orange{
+        font-size: 16px;
+    }
+
+    #benefits p.gray {
+        font-size: 14px;
+    }
+
+    #structures p.gray#title {
+        padding-top: 8.5%;
+        font-size: 45px;
+    }
+
+    #structures .col-md-3 {
+        padding-top: 16.5%;
+    }
+
+    #structures p.green {
+        font-size: 18px
+    }
+
+    #structures p.gray {
+        font-size: 15px
+    }
+
+    #footer {
+        padding-top: 1%;
+    }
+
+    #footer #form textarea {
+        height: 145px;
+    }
+
+}

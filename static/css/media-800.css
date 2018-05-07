@@ -1,0 +1,143 @@
+@media (max-width: 800px) {
+
+    .navbar-custom {
+        width: 100%;
+        height: 50px;
+        margin-left: 0;
+    }
+
+    .navbar-custom ul {
+        padding-left: 0;
+    }
+
+    .navbar-custom li {
+        padding: 14px 19px 0 19px;
+    }
+
+    .navbar-custom li a {
+        font-size: 13px;
+    }
+
+
+    #solutions .col-xs-offset-6 {
+        margin-left: 45%;
+    }
+
+    #solutions div p:first-child {
+        padding-top: 16%;
+    }
+
+    #services ul {
+        padding-top: 16%;
+    }
+
+    #services li {
+        font-size: 11px;
+    }
+
+    #services li.services:before {
+        width: 13px;
+        height: 13px;
+    }
+
+    #benefits .col-md-3 {
+        padding-top: 35%;
+    }
+
+    #benefits .col-benefits-1,
+    #benefits .col-benefits-2,
+    #benefits .col-benefits-3 {
+        width: 28%;
+    }
+
+    #benefits p.blue,
+    #benefits p.green,
+    #benefits p.orange {
+        font-size: 10px;
+        margin-bottom: 1px;
+    }
+
+    #benefits p.gray {
+        font-size: 8px;
+        margin-bottom: 1px;
+    }
+
+    #benefits .col-benefits-1 {
+        margin-left: 11.5%;
+    }
+
+    #benefits .col-benefits-2 {
+        padding-left: 1.5%;
+    }
+
+    #benefits .col-benefits-3 {
+        margin: 0;
+        padding-left: 0.8%;
+    }
+
+    #structures p.gray#title {
+        padding-top: 7.9%;
+        font-size: 30px;
+    }
+
+    #structures .col-md-3 {
+        padding-top: 15.5%;
+        padding-left: 4%;
+    }
+
+    #structures p.green {
+        font-size: 10px;
+    }
+
+    #structures p.gray {
+        font-size: 8px;
+    }
+
+    #footer #form {
+        height: 250px;
+    }
+
+
+    #footer #form textarea {
+        height: 40px;
+    }
+
+    #footer #form p {
+        font-size: 20px;
+    }
+
+    #footer #form label {
+        font-size: 13px;
+        margin-bottom: 0;
+    }
+
+    #footer #form input {
+        height: 25px;
+    }
+
+    #footer #form span.has-error {
+        font-size: 13px;
+    }
+
+    #footer #signature #logo img {
+        max-width: 200px;
+    }
+
+    #footer #signature p#phone,
+    #footer #signature p#address {
+        margin: 0;
+    }
+
+    #signature #social a {
+        padding: 0;
+    }
+
+    #footer #signature #email {
+        font-size: 10px;
+    }
+
+    #signature #social .fa-4x{
+        font-size: 3em;
+    }
+
+}

@@ -1,0 +1,130 @@
+@media (max-width: 414px) {
+
+    .navbar-custom ul {
+        padding-left: 0;
+    }
+
+    .navbar-custom li {
+        padding: 8px 7px 0 0;
+        margin-left: 0;
+    }
+
+    .navbar-custom li a {
+        font-size: 9px;
+    }
+
+    #solutions div p:first-child {
+        padding-top: 9%;
+        font-size: 20px;
+    }
+
+    #solutions div p:last-child {
+        padding-top: 9%;
+        font-size: 8px;
+    }
+
+    #services li.services:before {
+        width: 10px;
+        height: 10px;
+        margin-left: -25px;
+    }
+
+    #services li.services {
+        font-size: 10px;
+    }
+
+    #benefits .col-md-3 {
+        padding-top: 39%;
+    }
+
+    #benefits p.blue,
+    #benefits p.green,
+    #benefits p.orange {
+        font-size: 6px;
+    }
+
+    #benefits p.gray {
+        font-size: 5px;
+    }
+
+    #structures p.gray#title {
+        padding-top: 9%;
+        font-size: 16px;
+    }
+
+    #structures .col-md-3 {
+        padding-top: 17.5%;
+        padding-left: 4%;
+    }
+
+    #structures p.green {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+
+    #structures p.gray {
+        font-size: 5px;
+        margin-bottom: 0;
+    }
+
+
+    #footer #form {
+        height: 175px;
+    }
+
+    #footer #form span.has-error {
+        font-size: 10px;
+    }
+
+    #footer #form p {
+        font-size: 12px;
+    }
+
+    #footer #form label {
+        font-size: 10px;
+    }
+
+    #footer #form input {
+        height: 20px;
+    }
+
+    #footer #form textarea {
+        height: 25px;
+    }
+
+    #footer #form .form-group {
+        margin-bottom: 2px;
+    }
+
+    #footer #form button {
+        width: 55px;
+        height: 18px;
+        padding: 0;
+    }
+
+    #footer #signature {
+        height: 100px;
+    }
+
+    #footer #signature img#mapa {
+        width: 60%;
+    }
+
+    #footer #signature #logo img {
+        width: 30%;
+    }
+
+    #footer #signature #social .fa-4x {
+        font-size: 1em;
+    }
+
+    #footer #signature #address,
+    #footer #signature #phone {
+        font-size: 9.5px;
+    }
+
+    #footer #signature #email {
+        font-size: 6px;
+    }
+
+}

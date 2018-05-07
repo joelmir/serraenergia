@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'Helvetica-Condensed-Bold';
+    src: url('../fonts/Helvetica-Condensed-Bold.eot');
+    src: local('☺'), url('../fonts/Helvetica-Condensed-Bold.woff') format('woff'), url('../fonts/Helvetica-Condensed-Bold.ttf') format('truetype'), url('../fonts/Helvetica-Condensed-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadPro-Regular';
+    src: url('../fonts/MyriadPro-Regular.eot');
+    src: local('☺'), url('../fonts/MyriadPro-Regular.woff') format('woff'), url('../fonts/MyriadPro-Regular.ttf') format('truetype'), url('../fonts/MyriadPro-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway-Regular';
+    src: url('../fonts/raleway.regular.eot');
+    src: local('☺'), url('../fonts/raleway.regular.woff') format('woff'), url('../fonts/raleway.regular.ttf') format('truetype'), url('../fonts/raleway.regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-custom {
+    background-color: #080808;
+    position: absolute;
+    bottom: 0;
+    width: 65%;
+    height: 60px;
+    margin-left: 35%;
+    z-index: 1;
+}
+    .navbar-custom ul {
+        float: left;
+        margin: 0px;
+    }
+    .navbar-custom ul::before {
+        display: table;
+        content: " ";
+    }
+    .navbar-custom li {
+        float: left;
+        list-style: none;
+        padding: 20px;
+    }
+    .navbar-custom li a {
+        font-family: "Raleway-Regular";
+        font-size: 15px;
+        color: rgba(255, 255, 255, 1);
+    }
+    .navbar-custom li.active a {
+        color: rgba(94, 188, 96, 1);
+    }
+    .navbar-custom a:hover,
+    .navbar-custom a:link,
+    .navbar-custom a:visited,
+    .navbar-custom a:active {
+        text-decoration: none;
+        cursor: auto;
+    }
+
+a:link:active, a:visited:active {
+    color: (internal value);
+}
+
+.container {
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+p.blue {
+    color: rgba(0, 173, 239, 1);
+}
+
+p.gray {
+    color: rgba(88, 88, 91, 1);
+}
+
+p.orange {
+    color: rgba(253, 184, 19, 1);
+}
+
+p.green {
+    color: rgba(94, 188, 96, 1);
+}
+
+
+li.services {
+    list-style: none;
+}
+
+li.services:before {
+    content: " ";
+    width: 25px;
+    height: 25px;
+    background-color: rgba(153, 153, 153, 1);
+    border-radius: 50%;
+    position: absolute;
+    margin-left: -35px;
+}
+
+#home {
+    background-image: url(../img/01-home-teste.jpg);
+    background-size: cover;
+/*    background-image: url(../img/01-home-texto.png), url(../img/01-home.png);
+    background-size: cover;*/
+}
+    #home img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+#solutions {
+    background-image: url(../img/02-textura-fundo-teste.png);
+    background-size: cover;
+/*    background-image: url(../img/02-solucao.png), url(../img/02-textura-fundo.png);
+    background-size: contain, cover;*/
+}
+
+#solutions div p:first-child {
+    font-family: "Helvetica-Condensed-Bold";
+    font-size: 52px;
+    text-align: right;
+    color: rgba(94, 188, 96, 1);
+    padding-top: 48%;
+}
+
+#solutions div p:last-child{
+    font-family: "MyriadPro-Regular";
+    font-size: 18px;
+    text-align: right;
+    color: rgba(88, 88, 91, 1);
+    padding-top: 50px;
+}
+
+#services {
+    background-image: url(../img/03-textura-fundo-teste.png);
+    background-size: cover;
+/*    background-image: url(../img/03-servicos-oferecidos.png), url(../img/03-atuacao.png), url(../img/03-textura-fundo.png);
+    background-size: contain, contain, cover;*/
+}
+    #services ul {
+        padding-top: 18%;
+    }
+    #services li {
+        font-family: "MyriadPro-Regular";
+        font-size: 20px;
+        color: rgba(88, 88, 91, 1);
+    }
+
+#benefits {
+    background-image: url(../img/04-textura-fundo-teste.png);
+    background-size: cover;
+/*    background-image: url(../img/04-beneficios.png), url(../img/04-textura-fundo.png);
+    background-size: contain, cover;*/
+}
+    #benefits p.blue,
+    #benefits p.green,
+    #benefits p.orange{
+        font-family: "Helvetica-Condensed-Bold";
+        font-size: 20px;
+    }
+    #benefits p.gray {
+        font-family: "MyriadPro-Regular";
+        font-size: 16px;
+    }
+    #benefits .col-md-3 {
+        padding-top: 32%;
+    }
+    #benefits .col-md-offset-2 {
+        margin-left: 12.66%;
+    }
+    #benefits .col-benefits-2 {
+        padding-left: 3.3%;
+    }
+    #benefits .col-benefits-3 {
+        padding-left: 5.3%;
+    }
+
+
+#simulation {
+    background-image: url(../img/05-fundo-teste.png);
+    background-size: cover;
+/*    background-image: url(../img/05-simulacao-fundo.png), url(../img/05-infografica-fundo.png), url(../img/04-textura-fundo.png);
+    background-size: contain, cover, cover;*/
+}
+
+#structures {
+    background-image: url(../img/06-fundo-teste.png);
+    background-size: cover;
+/*    background-image: url(../img/06-fotos-telhas.png), url(../img/06-energia-solar-quadro.png), url(../img/04-textura-fundo.png);
+    background-size: cover, cover, cover;*/
+}
+    #structures p.gray#title {
+        font-family: "Helvetica-Condensed-Bold";
+        font-size: 52px;
+        text-align: center;
+        padding-top: 8%;
+    }
+    #structures p.green {
+        font-family: "Helvetica-Condensed-Bold";
+        font-size: 22px;
+    }
+    #structures p.gray {
+        font-family: "MyriadPro-Regular";
+        font-size: 17px;
+    }
+    #structures .col-md-3{
+        padding-top: 355px;
+    }
+
+#footer {
+    background-image: url(../img/01-home.jpg);
+    background-size: cover;
+    padding-top: 15px;
+}
+    #footer #signature{
+        background: rgba(255, 255, 255, 0.7);
+        height: 300px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        padding-top: 15px
+    }
+    #footer #form {
+        padding: 25px;
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 35px;
+    }
+    #footer #form p {
+        font-family: "Helvetica-Condensed-Bold";
+        font-size: 26px;
+    }
+    #footer #form label {
+        font-family: "MyriadPro-Regular";
+        font-size: 15px;
+        color: rgba(88, 88, 91, 1);
+    }
+    #footer #form input, #footer #form textarea {
+        background-color: rgba(204, 204, 204, 1);
+    }
+    #footer #form button {
+        width: 100px;
+    }
+    #footer #signature #map img,
+    #footer #signature #logo img {
+        max-width: 80%;
+    }
+    #footer #signature #email {
+        font-family: "MyriadPro-Regular";
+        font-size: 13px;
+    }
+    #footer #signature #phone,
+    #footer #signature #address {
+        font-family: "MyriadPro-Regular";
+        font-size: 18.5px;
+    }
+    #footer #signature #phone {
+        font-weight: bold;
+    }
+
+#signature #social {
+    padding-top: 65px;
+}
+    #signature #social a {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+span.has-error{
+    color: #a94442;
+}
+
+a.social-icons {
+    color: black;
+}
+
+section.background-image {
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    position: relative;
+}

@@ -1,0 +1,588 @@
+/* IPAD paisagem */
+@media (max-device-width: 1024px) and (max-device-height: 768px) and (orientation: landscape) {
+    .navbar-custom {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 10%;
+    }
+
+    #solutions div p:first-child {
+        padding-top: 49%;
+        font-size: 36px;
+    }
+
+    #solutions div p:last-child {
+        padding-top: 15%;
+        font-size: 14px;
+    }
+
+    #services ul {
+        padding-top: 30%;
+    }
+
+    #benefits .col-md-3 {
+        padding-top: 41%;
+    }
+
+    #structures p.gray#title {
+        padding-top: 17.3%;
+    }
+}
+
+/* IPAD retrato */
+@media (max-device-width: 768px) and (max-device-height: 1024px) and (orientation: portrait) {
+    .navbar-custom ul {
+        padding-left: 14px;
+    }
+
+    #solutions div p:first-child {
+        padding-top: 73%;
+        font-size: 40px;
+    }
+
+    #solutions div p:last-child {
+        font-size: 20px;
+    }
+
+    #services ul {
+        padding-top: 77%;
+    }
+
+    #benefits .col-md-3 {
+        padding-top: 71%;
+    }
+
+    #structures p.gray#title {
+        padding-top: 46%;
+    }
+}
+
+/* iPhone 6 plus */
+@media (max-device-width: 736px) and (max-device-height: 414px) and (orientation: landscape) {
+    .navbar-custom {
+        width: 100%;
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .navbar-custom li a {
+        font-size: 12px;
+    }
+
+    #solutions div p:first-child {
+        padding-top: 15%;
+        font-size: 30px;
+    }
+
+    #solutions div p:last-child {
+        font-size: 13px;
+    }
+
+    #services ul {
+        padding-top: 13%;
+    }
+
+    #benefits .col-md-3 {
+        padding-top: 32%;
+    }
+
+    #benefits p {
+        margin-bottom: 4px;
+    }
+
+    #benefits p.blue,
+    #benefits p.green,
+    #benefits p.orange {
+        font-size: 9px;
+    }
+
+    #benefits p.gray {
+        font-size: 7px;
+    }
+
+    #structures p.gray#title {
+        padding-top: 7.3%;
+        font-size: 28px;
+    }
+
+    #structures .col-md-3 {
+        padding-top: 16%;
+        padding-left: 4%;
+    }
+
+    #structures p {
+        margin-bottom: 4px;
+    }
+
+    #structures p.green {
+        font-size: 10px;
+    }
+
+    #structures p.gray {
+        font-size: 8px;
+    }
+
+    #footer #form {
+        height: 275px;
+    }
+
+    #footer #form textarea {
+        height: 50px;
+    }
+
+    #footer #form p {
+        font-size: 16px;
+    }
+
+    #footer #form label {
+        font-size: 11px;
+    }
+
+    #footer #form span.has-error {
+        font-size: 13px;
+    }
+
+    #signature #social .fa-4x {
+        font-size: 2em;
+    }
+
+    #footer #signature {
+        height: 125px;
+    }
+
+    #footer #signature #address {
+        font-size: 12.5px;
+    }
+
+    #footer #signature #email {
+        font-size: 8px;
+    }
+
+    #footer #signature img#mapa {
+        width: 70%;
+    }
+
+    #footer #signature #logo img {
+        width: 125px;
+    }
+
+    #footer #signature #address,
+    #footer #signature #phone {
+        font-size: 11.5px;
+    }
+}
+
+
+/* iPhone 6 plus */
+@media (max-device-width: 414px) and (max-device-height: 736px) and (orientation: portrait) {
+
+    .navbar-custom {
+        padding-left: 0;
+    }
+
+    .navbar-custom ul {
+        padding-left: 0;
+    }
+
+    .navbar-custom li {
+        padding: 6px 7px 0 0;
+    }
+
+    .navbar-custom li a {
+        font-size: 8px;
+    }
+
+    #solutions div p:first-child {
+        padding-top: 91%;
+        font-size: 27px;
+    }
+
+    #solutions div p:last-child {
+        font-size: 9px;
+    }
+
+    #services ul {
+        padding-top: 107%;
+    }
+
+    #services li.services:before {
+        width: 12px;
+        height: 12px;
+    }
+
+    #services li {
+        font-size: 10px;
+    }
+
+    #benefits .col-md-3 {
+        padding-top: 93%;
+    }
+
+    #benefits p.blue, #benefits p.green, #benefits p.orange {
+        font-size: 8px;
+    }
+
+    #benefits p.gray {
+        font-size: 6px;
+    }
+
+    #structures p.gray#title {
+        padding-top: 68%;
+        font-size: 15px;
+    }
+
+    #structures .col-md-3 {
+        padding-top: 17.5%;
+    }
+
+    #structures p.green {
+        font-size: 10px;
+    }
+
+    #structures p.gray {
+        font-size: 8px;
+    }
+
+    #footer #form {
+        height: 340px;
+    }
+
+    #footer #signature {
+        height: 160px;
+    }
+
+    #footer #signature #logo img {
+        width: 70%;
+    }
+
+    #footer #signature #email {
+        margin-left: -25px;
+    }
+
+    #footer #signature #address,
+    #footer #signature #phone {
+        font-size: 11.5px;
+    }
+}
+
+/* iPhone 6 */
+@media (max-device-width: 667px) and (max-device-height: 375px) and (orientation: landscape) {
+
+    .navbar-custom ul {
+        padding-left: 0;
+    }
+
+    .navbar-custom li {
+        padding: 13px 14px;
+    }
+
+    #solutions div p:first-child {
+        padding-top: 4%;
+        font-size: 28px;
+    }
+
+    #solutions div p:last-child {
+        padding-top: 9%;
+    }
+
+    #services ul {
+        padding-top: 10%;
+    }
+
+    #benefits p.blue,
+    #benefits p.green,
+    #benefits p.orange {
+        font-size: 8px;
+    }
+
+    #benefits p.gray {
+        font-size: 6px;
+    }
+
+    #structures p.gray#title {
+        font-size: 24px;
+    }
+
+    #structures .col-md-3 {
+        padding-top: 14%;
+    }
+
+    .form-control {
+        height: 25px;
+        font-size: 10px;
+    }
+
+    #footer #form {
+        height: 250px;
+    }
+
+    #footer #form p {
+        margin: 0;
+    }
+
+    #footer #signature {
+        height: 110px;
+    }
+
+    #footer #signature img#mapa {
+        width: 60%;
+    }
+
+    #footer #signature #logo img {
+        width: 30%;
+    }
+
+}
+
+/* iPhone 6 */
+@media (max-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) {
+
+    .navbar-custom {
+        padding-left: 0;
+    }
+
+    #solutions div p:first-child {
+        font-size: 25px;
+    }
+
+    #services ul {
+        padding-top: 115%;
+    }
+
+    .navbar-custom li {
+        padding: 6px 0px 0 0;
+    }
+
+    #services li.services:before {
+        width: 10px;
+        height: 10px;
+    }
+
+    #services li {
+        font-size: 8px;
+    }
+
+    #structures p {
+        margin-bottom: 1px;
+    }
+
+}
+
+/* iPhone 5 */
+@media (max-device-width: 320px) and (max-device-height: 568px) and (orientation: portrait) {
+
+    .navbar-custom {
+        height: 30px;
+    }
+
+    .navbar-custom li a {
+        font-size: 6px;
+    }
+
+    .navbar-custom li {
+        padding: 1px 5px 0 0;
+    }
+
+    #solutions div p:first-child {
+        padding-top: 102%;
+        font-size: 20px;
+    }
+
+    #services ul {
+        padding-top: 110%;
+    }
+
+    #services li.services:before {
+        margin-left: -25px;
+    }
+
+    #structures p.gray#title {
+        padding-top: 68%;
+        font-size: 12px;
+    }
+
+    #structures p.green {
+        font-size: 8px;
+    }
+
+    #structures p.gray {
+        font-size: 6px;
+    }
+
+    #footer #signature #email {
+        margin-left: -40px;
+    }
+
+}
+
+/* iPhone 5 */
+@media (max-device-width: 568px) and (max-device-height: 320px) and (orientation: landscape) {
+
+    .navbar-custom li {
+        padding: 8px 8px;
+    }
+
+    .navbar-custom li a {
+        font-size: 10px;
+    }
+
+    #solutions div p:first-child {
+        padding-top: 4%;
+        font-size: 24px;
+    }
+
+    #solutions div p:last-child {
+        font-size: 10px;
+    }
+
+    #structures p.gray#title {
+        padding-top: 7.7%;
+        font-size: 20px;
+    }
+
+    #structures p.green {
+        font-size: 9px;
+    }
+
+    #structures p.gray {
+        font-size: 6px;
+    }
+
+    #footer #form {
+        height: 220px;
+    }
+
+    #footer #signature {
+        height: 90px;
+    }
+
+    #footer #signature #address,
+    #footer #signature #phone {
+        font-size: 7px;
+    }
+}
+
+
+/* Nexus 5X */
+@media (max-device-width: 412px) and (max-device-height: 732px) and (orientation: portrait)  {
+
+    #solutions div p:first-child {
+        padding-top: 120%;
+    }
+
+    .navbar-custom {
+        height: 30px;
+        padding-left: 0;
+    }
+
+    .navbar-custom li {
+        padding: 2px 8px 0 0;
+    }
+
+    .navbar-custom li a {
+        font-size: 6px;
+    }
+
+    #solutions div p:first-child {
+        padding-top: 92%;
+        font-size: 25px;
+    }
+
+    #footer #signature #email {
+        margin-left: -30px;
+    }
+}
+
+/* Nexus 5X */
+@media (max-device-width: 732px) and (max-device-height: 412px) and (orientation: landscape) {
+
+    #solutions div p:first-child {
+        padding-top: 15%;
+    }
+
+    #solutions div p:last-child {
+        font-size: 12px;
+    }
+
+    #structures p.green {
+        font-size: 9px;
+    }
+
+    #structures p.gray {
+        font-size: 7px;
+    }
+
+    #footer #form {
+        height: 240px;
+    }
+
+    #footer #form textarea {
+        height: 40px;
+    }
+}
+
+
+/* Galaxy S5 */
+@media (max-device-width: 360px) and (max-device-height: 640px) and (orientation: portrait)  {
+    .navbar-custom {
+        height: 30px;
+        padding-left: 0;
+    }
+
+    .navbar-custom li {
+        padding: 2px 8px 0 0;
+    }
+
+    .navbar-custom li a {
+        font-size: 6px;
+    }
+
+    #structures p.green {
+        font-size: 8px;
+    }
+
+    #structures p.gray {
+        font-size: 7px;
+    }
+
+    #solutions div p:first-child {
+        padding-top: 88%;
+        font-size: 25px;
+    }
+
+    #footer #signature #email {
+        margin-left: -30px;
+    }
+}
+
+/* Galaxy S5 */
+@media (max-device-width: 640px) and (max-device-height: 360px) and (orientation: landscape) {
+    .navbar-custom li {
+        padding: 9px 9px;
+    }
+
+    #solutions div p:first-child {
+     padding-top: 4%;
+        font-size: 27px;
+    }
+
+    #solutions div p:last-child {
+        font-size: 12px;
+    }
+
+    #structures p.green {
+        font-size: 9px;
+    }
+
+    #structures p.gray {
+        font-size: 7px;
+    }
+
+    #footer #form {
+        height: 240px;
+    }
+
+    #footer #form textarea {
+        height: 40px;
+    }
+}
